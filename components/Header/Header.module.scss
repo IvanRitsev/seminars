@@ -1,0 +1,19 @@
+@use "../../styles/variables.scss" as *;
+
+.header {
+  background-color: $font-color;
+}
+
+.wrapper {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: $bg-color-card;
+  border-radius: 99999px;
+}

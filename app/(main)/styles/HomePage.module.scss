@@ -1,0 +1,11 @@
+@use "../../../styles/variables.scss" as *;
+
+.container {
+  padding-top: 20px;
+}
+
+.title {
+  font-size: 36px;
+  color: $font-color;
+  margin-bottom: 20px;
+}

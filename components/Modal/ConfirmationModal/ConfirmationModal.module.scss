@@ -1,0 +1,44 @@
+@use "../../../styles/variables.scss" as *;
+
+.buttonBox {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.modalWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.disagreeButton,
+.agreeButton {
+  padding: 10px 15px;
+  border-radius: 16px;
+  min-width: 150px;
+  transition: 0.2s ease;
+  font-weight: 600;
+
+  &:hover {
+    opacity: 0.9;
+    box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.309);
+  }
+}
+
+.agreeButton {
+  background-color: $font-color;
+  color: $bg-color-card;
+}
+
+.disagreeButton {
+  border: 2px solid $font-color;
+  color: $font-color;
+  background-color: $bg-color-card;
+}
+
+.modaltitle {
+  font-size: 36px;
+  color: $font-color;
+  padding-right: 50px;
+}

@@ -1,0 +1,36 @@
+@use "../../styles/variables.scss" as *;
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  max-width: 550px;
+  background: $bg-color;
+  padding: 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.closeButton {
+  top: 10px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  color: $font-color;
+  font-weight: 900;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

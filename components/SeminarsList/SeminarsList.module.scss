@@ -1,0 +1,23 @@
+@use "../../styles/variables.scss" as *;
+
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cardWrapper {
+  display: flex;
+  gap: 20px;
+  background-color: $bg-color-card;
+  color: $font-color;
+  padding: 20px 25px;
+  border-radius: 16px;
+}
+
+.errorText {
+  text-align: center;
+  padding-left: 20px;
+  font-size: 25px;
+  color: $font-color;
+}

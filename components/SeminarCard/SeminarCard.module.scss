@@ -1,0 +1,75 @@
+@use "../../styles/variables.scss" as *;
+
+.title {
+  font-size: 36px;
+  color: $font-color;
+}
+
+.description {
+  font-size: 24px;
+}
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  padding-right: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 15%;
+  min-width: 175px;
+  max-height: 175px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.timeBlock {
+  span {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+.cardButtonsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+//cardButtons
+.editButton,
+.removeButton {
+  width: 50px;
+  height: 50px;
+  font-weight: 900;
+  border-radius: 99999px;
+  transition: 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.309);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.309);
+    box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.309);
+  }
+}
+
+.editButton {
+  background-color: $bg-color-card;
+  border: 3px solid $font-color;
+}
+
+.removeButton {
+  background-color: $font-color;
+  color: $bg-color-card;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
