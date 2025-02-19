@@ -2,14 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Чтоб запустить проект:
 
 ```bash
-npm run dev && npm run server
-
+npm install
+npm run dev
+npm run server
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Открыть [http://localhost:3000](http://localhost:3000) для отображения проекта.
+Открыть [http://localhost:3001/seminars](http://localhost:3001/seminars) для отображения json сервера.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
